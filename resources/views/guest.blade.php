@@ -6,7 +6,7 @@
                 <div class="card">
                     <div class="card-header ">
                         <div class="d-flex justify-content-between">
-                            <span>User List</span>
+                            <span>Guest List</span>
 
                         </div>
                         @if(!empty($successMsg))
