@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('post','HomeController@getPost');
+Route::get('user-comment','HomeController@getUserComment');
+Route::get('guest-comment','HomeController@getGuestComment');
